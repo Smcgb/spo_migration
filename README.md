@@ -28,3 +28,6 @@ The script stores items in a list, allowing for partial processing or reversal f
 Performance Constraints
 
 We observed a download speed limit with our tenant, capping each script instance at 25 gigabytes per hour per run (we are running a forward and reverse version of this script). For smaller data sets, the OneDrive connection tool might be faster. However, for moving over 20 TBs as in our case, this script proved to be a significant time-saver, especially given the frequent corruption issues with large files or batches exceeding 50 files or 10GB in total size when using Sharepoint OneDrive or direct downloads.
+
+#### Acknowledgement
+- [Lbelanger00](https://github.com/LBelanger00) - Token regeneration, QA and data validation
